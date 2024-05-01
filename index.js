@@ -20,6 +20,16 @@ else  {
     alert("Better luck next time.");
 }
 
+// other 
+var yourTicketNumber = prompt("Input Your Ticket Number.")
+
+if (yourTicketNumber == 4) {
+    alert("you won rooh afza");
+}
+
+else  {
+    alert("Jao piche jao bhai pehle hi awam zyada khari hai.");
+}
 // chap 13
 
 var age = prompt("Enter Your Age.")
