@@ -1,49 +1,38 @@
 // chap 10 & 11
 var x = prompt("where is karachi?");
-if (x === "Pakistan"){
+if (x === "Pakistan") {
     alert("Correct!")
-}
+};
 
-if (x != "Pakistan"){
+if (x != "Pakistan") {
     alert("Incorrect!")
-}
+};
 
 //chap 12
 
-var yourTicketNumber = prompt("Input Your Ticket Number.")
+var yourTicketNumber = prompt("Input Your Ticket Number.");
 
 if (yourTicketNumber == 4) {
     alert("you won rooh afza");
 }
 
-else  {
+else {
     alert("Better luck next time.");
 }
 
-// other 
-var yourTicketNumber = prompt("Input Your Ticket Number.")
 
-if (yourTicketNumber == 4) {
-    alert("you won rooh afza");
-}
-
-else  {
-    alert("Jao piche jao bhai pehle hi awam zyada khari hai.");
-}
 // chap 13
 // if and else statement
-var age = prompt("Enter Your Age.")
+var age = prompt("Enter Your Age.");
 
-if (age <= 17){
+if (age <= 17) {
     alert("Pay Rs10.")
-}
+};
 
-if (age >= 18 && age <= 59){
+if (age >= 18 && age <= 59) {
     alert("Pay Rs20.")
 }
-
-
 else {
     alert("Free Entry.")
-}
+};
 
