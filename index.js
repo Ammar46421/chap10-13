@@ -31,7 +31,7 @@ else  {
     alert("Jao piche jao bhai pehle hi awam zyada khari hai.");
 }
 // chap 13
-
+// if and else statement
 var age = prompt("Enter Your Age.")
 
 if (age <= 17){
@@ -43,7 +43,7 @@ if (age >= 18 && age <= 59){
 }
 
 
-if (age >= 60){
+else {
     alert("Free Entry.")
 }
 
